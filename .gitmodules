@@ -1,8 +1,16 @@
 [submodule "zcm/transport/third-party"]
 	path = zcm/transport/third-party
-	url = ../zcm-transports.git
+	url = git@github.com:ZeroCM/zcm-transports.git
+	branch = master
 
-[submodule "python_zcm/pybind11"]
-    path = python_orocos_kdl/pybind11
-    url = https://github.com/pybind/pybind11.git
+[submodule "3rdparty/pybind11"]
+    path = 3rdparty/pybind11
+    url = git@github.com:pybind/pybind11.git
     branch = stable
+
+[submodule "3rdparty/libzmq"]
+    path = 3rdparty/libzmq
+    url = git@github.com:zeromq/libzmq.git
+    branch = master
+
+

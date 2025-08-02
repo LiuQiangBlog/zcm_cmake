@@ -1,0 +1,6 @@
+struct ExampleMessage
+{
+    int64_t timestamp;  // 时间戳
+    double  value;      // 数值
+    string  name;       // 名称
+}

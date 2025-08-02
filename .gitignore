@@ -8,5 +8,6 @@ build/
 .lock*
 .waf*
 deps/
-python_zcm/
+3rdparty/pybind11/
+3rdparty/libzmq/
 .idea/
