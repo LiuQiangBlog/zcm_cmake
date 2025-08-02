@@ -9,3 +9,4 @@ build/
 .waf*
 deps/
 python_zcm
+.idea
