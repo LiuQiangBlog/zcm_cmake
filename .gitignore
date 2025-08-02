@@ -8,5 +8,5 @@ build/
 .lock*
 .waf*
 deps/
-python_zcm
+python_zcm/
 .idea
