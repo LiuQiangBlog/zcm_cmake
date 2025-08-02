@@ -9,7 +9,6 @@
 #include <pybind11/operators.h>
 #include <pybind11/stl.h>
 
-void bind_subscription(pybind11::module &m);
 void bind_zcm(pybind11::module &m);
 
 #endif //PYZCM_H

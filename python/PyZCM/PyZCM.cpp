@@ -7,7 +7,7 @@
 namespace py = pybind11;
 
 // 模块初始化函数（参考PyKDL的入口设计）
-PYBIND11_MODULE(PyZCM, m)
+PYBIND11_MODULE(pyzcm, m)
 {
     m.doc() = "ZCM消息框架的Python绑定模块";
     m.attr("__version__") = "1.0.0";
